@@ -16,7 +16,7 @@ app.config["TEMPLATES_AUTO_RELOAD"] = True
 # Database Setup
 #################################################
 
-app.config["SQLALCHEMY_DATABASE_URI"] = f"postgresql://postgres:Lathalu1@localhost:5432/olympics_database"
+app.config["SQLALCHEMY_DATABASE_URI"] = f"postgres://ndvizrmvspands:ec579134ea10a2cced2910648248cb90d84beb9ac7249c00dce9355ff548f2b5@ec2-34-195-169-25.compute-1.amazonaws.com:5432/d9gjqmr1f99q5s"
 db = SQLAlchemy(app)
 db.init_app(app)
 
